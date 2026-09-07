@@ -1,28 +1,185 @@
-<span class="tag">Аркада</span>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <h3>УХИЛИСЯ!</h3>
+    <title>Anchak Games — безкоштовні браузерні ігри</title>
 
-            <p>
-                Ухиляйся від падаючих перешкод,
-                бережи свої життя та набирай якомога більше очок!
-            </p>
+    <meta name="description"
+          content="Anchak Games — безкоштовні браузерні ігри від Anchak. Грай прямо в браузері без встановлення.">
 
-            <a
-                class="play-button"
-                href="https://anchak-0990.github.io/dodge-game/"
-            >
-                ▶ ГРАТИ
-            </a>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-        </div>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #111827;
+        }
 
-    </div>
+        header {
+            background: #111827;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
 
-</main>
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
 
-<footer>
-    © 2026 Anchak Games
-</footer>
+        header p {
+            margin: 10px 0 0;
+            font-size: 17px;
+            color: #cbd5e1;
+        }
 
-</body>
-</html>
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        .welcome {
+            background: white;
+            border-radius: 18px;
+            padding: 25px;
+            margin-bottom: 35px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .welcome h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .welcome p {
+            color: #6b7280;
+            font-size: 16px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 18px;
+            padding: 16px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .game-image {
+            height: 170px;
+            border-radius: 14px;
+            background: #93c5fd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 70px;
+        }
+
+        .game-card h3 {
+            margin: 16px 0 7px;
+            font-size: 22px;
+        }
+
+        .game-card p {
+            color: #6b7280;
+            line-height: 1.5;
+            min-height: 68px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .play-button {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 13px;
+            border-radius: 11px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .play-button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            color: #6b7280;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 15px;
+            }
+
+            main {
+                padding: 25px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 Anchak Games</h1>
+    <p>Грай безкоштовно. Прямо у браузері.</p>
+</header>
+
+<main>
+
+    <section class="welcome">
+        <h2>Ласкаво просимо! 👋</h2>
+        <p>
+            Тут збиратимуться всі мої ігри.
+            Вибирай гру та грай без встановлення.
+        </p>
+    </section>
+
+    <h2 class="section-title">🎮 Мої ігри</h2>
+
+    <div class="games">
+
+        <div class="game-card">
+
+            <div class="game-image">
+                🎯
+            </div>
