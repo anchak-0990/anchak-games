@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anchak Games — безкоштовні браузерні ігри</title>
+
+    <meta name="description"
+          content="Anchak Games — колекція безкоштовних браузерних ігор від Anchak. Грай прямо у браузері без встановлення.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            color: #111827;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 24px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            color: #cbd5e1;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .game-image {
+            height: 150px;
+            border-radius: 12px;
+            background: #93c5fd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 55px;
+        }
+
+        .game-card h3 {
+            margin: 15px 0 6px;
+        }
+
+        .game-card p {
+            color: #6b7280;
+            margin-top: 0;
+        }
+
+        .play-button {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 11px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .play-button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 Anchak Games</h1>
+    <p>Безкоштовні ігри, у які можна грати прямо в браузері</p>
+</header>
+
+<main>
+
+    <h2 class="section-title">Мої ігри</h2>
+
+    <div class="games">
+
+        <div class="game-card">
+
+            <div class="game-image">
+                🎯
+            </div>
+
+            <h3>УХИЛИСЯ!</h3>
+
+            <p>
+                Ухиляйся від падаючих перешкод,
+                бережи свої життя та набирай якомога більше очок!
+            </p>
+
+            <a
+                class="play-button"
+                href="https://anchak-0990.github.io/dodge-game/"
+            >
+                ▶ ГРАТИ
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Anchak Games
+</footer>
+
+</body>
+</html>
